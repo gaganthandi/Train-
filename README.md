@@ -13,4 +13,4 @@ Use only these functions (e.g., no semaphores or other synchronization primitive
 ● You may not use more than a single lock in each struct station.
 ● You may assume that there is never more than one train in the station at once, and that all trains (and all passengers) are going to the same destination (i.e. any passenger can board any train).
 ● Your code must allow multiple passengers to board simultaneously (it must be possible for several passengers to have called station_wait_for_train, and for that function to have returned for each of the passengers, before any of the passengers calls station_on_board). 
-● Your code must not result in busy-waiting
+● Your code must not result in busy-waiting.
